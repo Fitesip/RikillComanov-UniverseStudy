@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Universe Study</title>
+    <link rel="stylesheet" href="styles/desktop.css">
+    <link rel="stylesheet" href="styles/tablet.css">
+    <link rel="stylesheet" href="styles/phone.css">
+</head>
+<body>
+    <header>
+        <div class="headerContainer">
+            <p class="logo">Universe Study</p>
+            <div class="pagesContainer">
+                <a href="index.html">Главная</a>
+                <div class="catalogLink">
+                    <a href="pages/office.html">Каталог</a>
+                    <img src="res/img/arrow.svg" class="catalogLinkArrow" alt="">
+                </div>
+                <a href="pages/delivery.html">Доставка</a>
+                <a href="pages/about.html">О нас</a>
+                <a href="pages/contacts.html">Контакты</a>
+            </div>
+            <div class="searchField">
+                <img src="res/img/searchIcon.svg" class="searchFieldIcon" alt="">
+                <input class="search" type="text" placeholder="Поиск">
+            </div>
+            <img src="res/img/login.svg" class="loginIcon" onclick="document.location.href='pages/cart.html'" alt="">
+        </div>
+    </header>
+    <main>
+        <div class="slider">
+            <div class="imgWrapper" style="transform: translateX(0px)">
+                <img src="res/img/img1.png" alt="" id="img1">
+                <img src="res/img/img4.png" alt="">
+                <img src="res/img/img3.png" alt="">
+            </div>
+            <div class="arrowsWrapper">
+                <img src="res/img/arrow.svg" class="controlArrow" id="leftArrow" onclick="slideLeft()" alt="">
+                <img src="res/img/arrow.svg" class="controlArrow" id="rightArrow" onclick="slideRight()" alt="">
+            </div>
+            <div class="dotsWrapper">
+                <div class="dot" id="selected"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+
+        <div class="popularCategories">
+            <h1 class="categoriesHeader">Популярные категории</h1>
+            <div class="categories">
+                <div class="category" onclick="document.location.href='pages/office.html'">
+                    <img src="res/img/categoryImage1.png" class="categoryImage" alt="">
+                    <p class="categoryName">Тетради</p>
+                </div>
+                <div class="category" onclick="document.location.href='pages/office.html'">
+                    <img src="res/img/categoryImage2.png" class="categoryImage" alt="">
+                    <p class="categoryName">Ручки</p>
+                </div>
+                <div class="category" onclick="document.location.href='pages/office.html'">
+                    <img src="res/img/categoryImage3.png" class="categoryImage" alt="">
+                    <p class="categoryName">Карандаши</p>
+                </div>
+                <div class="category" onclick="document.location.href='pages/office.html'">
+                    <img src="res/img/categoryImage4.png" class="categoryImage" alt="">
+                    <p class="categoryName">Точилки</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bigAssortment">
+            <div class="bigAssortmentContainer">
+                <p class="bigAssortmentText">Большой ассортимент товаров</p>
+                <img src="res/img/curveLine.svg" class="bigAssortmentCurve" alt="">
+                <button class="button" onclick="document.location.href='pages/office.html'">Перейти</button>
+            </div>
+            <img src="res/img/assortment.png" class="bigAssortmentImage" alt="">
+        </div>
+
+        <div class="allForYourOffice">
+            <p class="allForYourOfficeText">Всё для твоего офиса</p>
+            <button class="button"><a href="pages/office.html">Перейти</a></button>
+        </div>
+
+        <div class="specialOffers">
+            <div class="offer">
+                <img src="res/img/offerImage1.png" class="offerImage" alt="">
+                <p class="offerName">Подарки</p>
+                <p class="offerDescription">Бесплатные бонусы всем</p>
+                <button class="offerButton" onclick="document.location.href='pages/office.html'">Перейти</button>
+            </div>
+            <div class="offer">
+                <img src="res/img/offerImage2.png" class="offerImage" alt="">
+                <p class="offerName">Распродажа</p>
+                <p class="offerDescription">Товары с большими скидками</p>
+                <button class="offerButton" onclick="document.location.href='pages/office.html'">Перейти</button>
+            </div>
+            <div class="offer">
+                <img src="res/img/offerImage3.png" class="offerImage" alt="">
+                <p class="offerName">Низкие цены</p>
+                <p class="offerDescription">Низкая стоимость товаров</p>
+                <button class="offerButton" onclick="document.location.href='pages/office.html'">Перейти</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footerContent1">
+            <p class="logo">Universe Study</p>
+            <p class="footerContentText address">Россия, г. Москва, Староватутинский проезд, д.6</p>
+            <div class="socials">
+                <img src="res/img/facebook.svg" class="socialIcon" alt="">
+                <img src="res/img/youtube.svg" class="socialIcon" alt="">
+                <img src="res/img/instagram.svg" class="socialIcon" alt="">
+                <img src="res/img/twitter.svg" class="socialIcon" alt="">
+            </div>
+        </div>
+        <div class="footerContent2">
+            <h1 class="footerContentHeader">Информация</h1>
+            <a href="index.html" class="footerContentText">Главная</a>
+            <a href="pages/office.html" class="footerContentText">Продукты</a>
+            <a href="pages/delivery.html" class="footerContentText">Доставка</a>
+            <a href="pages/about.html" class="footerContentText">О нас</a>
+            <a href="pages/contacts.html" class="footerContentText">Контакты</a>
+        </div>
+        <div class="footerContent3">
+            <h1 class="footerContentHeader">Контакты</h1>
+            <div class="footerSubcontent">
+                <h2 class="footerSubcontentHeader">Телефон:</h2>
+                <p class="footerContentText">8 (800) 555-35-35</p>
+            </div>
+            <div class="footerSubcontent">
+                <h2 class="footerSubcontentHeader">Email:</h2>
+                <p class="footerContentText">abobus@mogus.gus</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="js/slider.js"></script>
+</html>

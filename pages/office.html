@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Офисные товары</title>
+    <link rel="stylesheet" href="../styles/desktop.css">
+    <link rel="stylesheet" href="../styles/tablet.css">
+    <link rel="stylesheet" href="../styles/phone.css">
+</head>
+<body>
+    <header>
+        <div class="headerContainer">
+            <p class="logo">Universe Study</p>
+            <div class="pagesContainer">
+                <a href="../index.html">Главная</a>
+                <div class="catalogLink">
+                    <a href="office.html">Каталог</a>
+                    <img src="../res/img/arrow.svg" class="catalogLinkArrow" alt="">
+                </div>
+                <a href="delivery.html">Доставка</a>
+                <a href="about.html">О нас</a>
+                <a href="contacts.html">Контакты</a>
+            </div>
+            <div class="searchField">
+                <img src="../res/img/searchIcon.svg" class="searchFieldIcon" alt="">
+                <input class="search" type="text" placeholder="Поиск">
+            </div>
+            <img src="../res/img/login.svg" class="loginIcon" onclick="document.location.href='cart.html'" alt="">
+        </div>
+    </header>
+    <main>
+        <div class="header">
+            <p>Офисные товары</p>
+        </div>
+        <div class="searchNSort">
+            <div class="productSearchField">
+                <img src="../res/img/searchIcon.svg" class="productSearchFieldIcon" alt="">
+                <input class="productSearch" placeholder="Поиск">
+            </div>
+
+            <div class="sortField">
+                <p>Сортировать по:</p>
+                <div class="sortAccordionContainer">
+                    <p id="sortText">По популярности</p>
+                    <img class="sortArrow" src="../res/img/arrow.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="productsList">
+            <div class="product" onclick="document.location.href='products/pen.html'">
+                <img src="../res/img/Ручка.png" alt="">
+                <p>Ручка</p>
+                <div class="miniContainer">
+                    <div class="partialCharacteristics">
+                        <div class="partialCharacteristic">
+                            <p>Цвет</p>
+                            <p>Чёрный</p>
+                        </div>
+                        <div class="partialCharacteristic">
+                            <p>Цвет</p>
+                            <p>Чёрный</p>
+                        </div>
+                        <div class="partialCharacteristic">
+                            <p>Цвет</p>
+                            <p>Чёрный</p>
+                        </div>
+                    </div>
+                    <div class="priceNButton">
+                        <p>20 руб</p>
+                        <button class="miniButton">В корзину</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product" onclick="document.location.href='products/pencil.html'">
+                <img src="../res/img/Карандаш.png" alt="">
+                <p>Карандаш</p>
+                <div class="miniContainer">
+                    <div class="partialCharacteristics">
+                        <div class="partialCharacteristic">
+                            <p>Цвет</p>
+                            <p>Чёрный</p>
+                        </div>
+                        <div class="partialCharacteristic">
+                            <p>Цвет</p>
+                            <p>Чёрный</p>
+                        </div>
+                        <div class="partialCharacteristic">
+                            <p>Цвет</p>
+                            <p>Чёрный</p>
+                        </div>
+                    </div>
+                    <div class="priceNButton">
+                        <p>20 руб</p>
+                        <button class="miniButton">В корзину</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product" onclick="document.location.href='products/notebook.html'">
+                <img src="../res/img/Тетрадь.png" alt="">
+                <p>Тетрадь</p>
+                <div class="miniContainer">
+                    <div class="partialCharacteristics">
+                        <div class="partialCharacteristic">
+                            <p>Цвет</p>
+                            <p>Чёрный</p>
+                        </div>
+                        <div class="partialCharacteristic">
+                            <p>Цвет</p>
+                            <p>Чёрный</p>
+                        </div>
+                        <div class="partialCharacteristic">
+                            <p>Цвет</p>
+                            <p>Чёрный</p>
+                        </div>
+                    </div>
+                    <div class="priceNButton">
+                        <p>20 руб</p>
+                        <button class="miniButton">В корзину</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="otherCategories">
+            <h1 class="otherCategoriesHeader">Другие категории</h1>
+            <div class="categories">
+                <div class="category" onclick="document.location.href='office.html'">
+                    <img src="../res/img/categoryImage1.png" class="categoryImage" alt="">
+                    <p class="categoryName">Тетради</p>
+                </div>
+                <div class="category" onclick="document.location.href='office.html'">
+                    <img src="../res/img/categoryImage3.png" class="categoryImage" alt="">
+                    <p class="categoryName">Карандаши</p>
+                </div>
+                <div class="category" onclick="document.location.href='office.html'">
+                    <img src="../res/img/categoryImage4.png" class="categoryImage" alt="">
+                    <p class="categoryName">Точилки</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footerContent1">
+            <p class="logo">Universe Study</p>
+            <p class="footerContentText address">Россия, г. Москва, Староватутинский проезд, д.6</p>
+            <div class="socials">
+                <img src="../res/img/facebook.svg" class="socialIcon" alt="">
+                <img src="../res/img/youtube.svg" class="socialIcon" alt="">
+                <img src="../res/img/instagram.svg" class="socialIcon" alt="">
+                <img src="../res/img/twitter.svg" class="socialIcon" alt="">
+            </div>
+        </div>
+        <div class="footerContent2">
+            <h1 class="footerContentHeader">Информация</h1>
+            <a href="../index.html" class="footerContentText">Главная</a>
+            <a href="office.html" class="footerContentText">Продукты</a>
+            <a href="delivery.html" class="footerContentText">Доставка</a>
+            <a href="about.html" class="footerContentText">О нас</a>
+            <a href="contacts.html" class="footerContentText">Контакты</a>
+        </div>
+        <div class="footerContent3">
+            <h1 class="footerContentHeader">Контакты</h1>
+            <div class="footerSubcontent">
+                <h2 class="footerSubcontentHeader">Телефон:</h2>
+                <p class="footerContentText">8 (800) 555-35-35</p>
+            </div>
+            <div class="footerSubcontent">
+                <h2 class="footerSubcontentHeader">Email:</h2>
+                <p class="footerContentText">abobus@mogus.gus</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,174 @@
+@media screen and (max-width: 1024px) {
+    .headerContainer {
+        width: 1024px;
+    }
+    .logo {
+        width: 141px;
+        height: 54px;
+    }
+    .searchField input {
+        width: 104px;
+    }
+    .searchField img {
+        margin-left: 10px;
+    }
+    .searchField {
+        width: 160px;
+    }
+    .imgWrapper {
+        width: 980px;
+    }
+    .imgWrapper img {
+        width: 980px;
+        height: 450px;
+    }
+    .slider {
+        width: 980px;
+    }
+    .arrowsWrapper {
+        width: 914px;
+        margin-top: 177px;
+    }
+    .category {
+        padding: 15px 5px;
+    }
+    .categoryImage {
+        width: 180px;
+        height: 180px;
+    }
+    .bigAssortment {
+        width: 890px;
+    }
+    .bigAssortmentImage {
+        width: 444px;
+        height: 550px;
+        margin: unset;
+    }
+    .bigAssortmentContainer {
+        margin: unset;
+    }
+    .allForYourOffice {
+        width: 1024px;
+        height: 587px;
+    }
+    .offer {
+        padding: 15px 25px;
+
+    }
+    .offerImage {
+        width: 200px;
+        height: 200px;
+    }
+    .offerDescription {
+        font-size: 14px;
+    }
+    .footerContent2 {
+        margin-left: 304px;
+    }
+    .footerContent3 {
+        margin-left: 123px;
+    }
+    .product img {
+        width: 300px;
+        height: 200px;
+    }
+    .product {
+        max-width: 300px;
+        padding: 10px 10px;
+    }
+    .partialCharacteristics {
+        width: 150px;
+    }
+    .productsList {
+        gap: 20px;
+        justify-content: space-between;
+        max-width: 800px;
+    }
+    .promoBlock {
+        width: 1024px;
+        height: 650px;
+    }
+    .aboutBlock {
+        gap: 25px;
+    }
+    .aboutText {
+        max-width: 1000px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .randomImages img {
+        width: 254px;
+        height: 79px;
+    }
+    .deliveryContainer {
+        width: 1004px;
+    }
+    .deliveryInfo {
+        gap: 25px;
+        padding: 50px 25px;
+    }
+    .circle {
+        width: 50px;
+        height: 50px;
+    }
+    .circle p {
+        font-size: 16px;
+    }
+    .circleContainer {
+        gap: 20px;
+    }
+    .dottedLine {
+        margin-left: 24px;
+        height: 100px;
+    }
+    .formContainer {
+        width: 1024px;
+    }
+    .productImage {
+        width: 200px;
+        height: 200px;
+    }
+    .productImage img {
+        width: 200px;
+        height: 200px;
+    }
+    .arrowsWrapperForProductImages img {
+        width: 50px;
+        height: 50px;
+    }
+    .arrowsWrapperForProductImages {
+        width: 200px;
+    }
+    .allImages img {
+        width: 50px;
+        height: 50px;
+    }
+    .button {
+        padding: 15.5px 60px;
+        font-size: 20px;
+    }
+    .otherProduct img {
+        width: 250px;
+        height: 250px;
+    }
+    .cart {
+        width: 1024px;
+    }
+    .cartContainer {
+        gap: 50px;
+    }
+    .productNameAndPrice {
+        width: 177px;
+    }
+    .cartProduct {
+        width: 665px;
+    }
+    .cartProduct img {
+        width: 150px;
+        height: 121px;
+    }
+    .XAndQTY img {
+        width: 12px;
+        height: 12px;
+    }
+}

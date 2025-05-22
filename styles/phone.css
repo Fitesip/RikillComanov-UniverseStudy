@@ -1,0 +1,499 @@
+@media screen and (max-width: 420px) {
+    header {
+        height: 58px;
+    }
+    .headerContainer {
+        font-size: 8px;
+    }
+    .pagesContainer {
+        gap: 5px;
+        line-height: 10px;
+    }
+    .catalogLinkArrow {
+        width: 12px;
+        height: 12px;
+    }
+    .loginIcon {
+        width: 15px;
+        height: 15px;
+    }
+    .logo {
+        width: 64px;
+        height: 25px;
+        font-size: 16px;
+        line-height: 14px;
+    }
+    .searchField {
+        width: 60px;
+        gap: 5px;
+    }
+    .searchField img {
+        width: 10px;
+        height: 10px;
+        margin-left: 3px;
+    }
+    .searchField input {
+        font-size: 10px;
+        width: 38px;
+    }
+    .imgWrapper {
+        width: 420px;
+        border-radius: 15px;
+    }
+    .slider {
+        width: 420px;
+    }
+    .arrowsWrapper {
+        width: 410px;
+        margin-top: 78px;
+    }
+    .controlArrow {
+        width: 40px;
+        height: 40px;
+    }
+    .imgWrapper img {
+        width: 420px;
+        height: 195px;
+    }
+    .dot {
+        width: 10px;
+        height: 10px;
+    }
+    .dotsWrapper {
+        gap: 5px;
+    }
+    .slider {
+        height: max-content;
+    }
+    .categories {
+        flex-wrap: wrap;
+        gap: 30px;
+        max-width: 410px;
+    }
+    .category {
+        padding: 15px 20px;
+    }
+    .categoryImage {
+        width: 150px;
+        height: 150px;
+    }
+    .categoryName {
+        font-size: 16px;
+    }
+    .bigAssortment {
+        width: 367px;
+    }
+    .bigAssortmentText {
+        font-size: 24px;
+        width: 167px;
+    }
+    .bigAssortmentCurve {
+        width: 167px;
+        margin-bottom: 30px;
+    }
+    .bigAssortmentImage {
+        width: 180px;
+        height: 223px;
+    }
+    .button {
+        padding: 15px 38px;
+        font-size: 16px;
+    }
+    .allForYourOffice {
+        width: 420px;
+        height: 241px;
+        border-radius: 15px;
+    }
+    .allForYourOfficeText {
+        font-size: 24px;
+    }
+    .specialOffers {
+        gap: 10px;
+    }
+    .offer {
+        gap: 10px;
+        width: 122px;
+        padding: 15px 4px;
+    }
+    .offerImage {
+        width: 100px;
+        height: 100px;
+    }
+    .offerName {
+        font-size: 12px;
+    }
+    .offerDescription {
+        font-size: 7px;
+    }
+    .offerButton {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+    .footerContent2 {
+        margin-left: 106px;
+        gap: 5px;
+    }
+    .footerContent3 {
+        margin-left: 33px;
+        gap: 5px;
+    }
+    .address {
+        font-size: 10px;
+        width: 91px;
+    }
+    .footerContentText {
+        font-size: 10px;
+    }
+    .footerContentHeader {
+        font-size: 12px;
+    }
+    .footerSubcontentHeader {
+        font-size: 10px;
+    }
+    .footerSubcontent {
+        font-size: 10px;
+    }
+    .socialIcon {
+        width: 10px;
+        height: 10px;
+    }
+    .socials {
+        gap: 5px;
+    }
+    .header {
+        font-size: 20px;
+        padding: 10px 45px;
+    }
+    .productSearch {
+        width: 155px;
+        font-size: 10px;
+    }
+    .productSearchField {
+        width: 200px;
+    }
+    .productSearchFieldIcon {
+        width: 12px;
+        height: 12px;
+        margin-left: 5px;
+    }
+    .product img {
+        width: 150px;
+        height: 100px;
+    }
+    .productsList {
+        max-width: 350px;
+        gap: 5px;
+        border-radius: 10px;
+        justify-content: space-between;
+    }
+    .product {
+        max-width: 150px;
+        padding: 5px;
+        font-size: 14px;
+        gap: 5px;
+        border-radius: 10px;
+    }
+    .otherCategories {
+        margin-top: 25px;
+    }
+    .otherCategoriesHeader {
+        font-size: 16px;
+    }
+    .partialCharacteristic {
+        font-size: 8px;
+    }
+    .partialCharacteristics {
+        width: 75px;
+    }
+    .miniButton {
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+    .sortField {
+        font-size: 8px;
+        gap: 5px;
+    }
+    .sortAccordionContainer img {
+        width: 12px;
+        height: 12px;
+    }
+    .deliveryContainer {
+        width: 410px;
+        gap: unset;
+        justify-content: space-between;
+    }
+    .deliveryInfo {
+        gap: 10px;
+        padding: 20px 10px;
+    }
+    .deliveryInfo img {
+        width: 15px;
+        height: 15px;
+    }
+    .aboutDeliveryHeader {
+        font-size: 12px;
+        gap: 5px;
+    }
+    .aboutDelivery {
+        font-size: 8px;
+        gap: 10px;
+        max-width: 120px;
+    }
+    .aboutReturn {
+        gap: 10px;
+        font-size: 8px;
+        max-width: 120px;
+    }
+    .circleContainer {
+        gap: 5px;
+        font-size: 12px;
+    }
+    .circle {
+        width: 25px;
+        height: 25px;
+    }
+    .dottedLine {
+        margin-left: 12px;
+        height: 50px;
+    }
+    .circle p {
+        font-size: 10px;
+    }
+    .circlesContainer {
+        gap: 10px;
+    }
+    .promoBlock {
+        width: 420px;
+        height: 270px;
+        border-radius: 15px;
+    }
+    .aboutBlock {
+        padding: 10px;
+        gap: 5px;
+    }
+    .aboutBlock h1 {
+        font-size: 16px;
+    }
+    .aboutBlock p {
+        font-size: 10px;
+        line-height: 14px;
+        max-width: 320px;
+    }
+    .aboutText {
+        margin-top: 20px;
+        font-size: 10px;
+        line-height: 14px;
+        max-width: 400px;
+    }
+    .randomImages {
+        gap: 20px;
+        margin-top: 50px;
+    }
+    .randomImages img {
+        width: 104px;
+        height: 45px;
+    }
+    .formContainer {
+        width: 420px;
+        border-radius: 15px;
+        height: 320px;
+    }
+    .form {
+        gap: 12px;
+        width: 300px;
+        padding: 10px 20px;
+    }
+    .form h1 {
+        font-size: 16px;
+    }
+    .form input {
+        padding: 4px 6px;
+        width: 200px;
+        font-size: 10px;
+    }
+    .form textarea {
+        padding: 4px 6px;
+        width: 200px;
+        font-size: 10px;
+        height: 100px;
+    }
+    .form button {
+        font-size: 10px;
+        padding: 6.5px 5px;
+        margin-left: 8px;
+    }
+    .productImage {
+        width: 100px;
+        height: 100px;
+    }
+    .productImage img {
+        width: 100px;
+        height: 100px;
+    }
+    .characteristics {
+        width: 75px;
+        margin-left: 20px;
+        font-size: 10px;
+        gap: 5px;
+    }
+    .characteristic {
+        padding: 2px 0;
+        font-size: 6px;
+    }
+    .arrowsWrapperForProductImages img {
+        width: 12px;
+        height: 12px;
+    }
+    .arrowsWrapperForProductImages {
+        width: 100px;
+    }
+    .allImages img {
+        width: 15px;
+        height: 15px;
+        border-radius: 2px;
+    }
+    .upperContainer {
+        gap: 5px;
+        max-width: 78px;
+    }
+    .productName {
+        font-size: 12px;
+    }
+    .productCategory {
+        font-size: 8px;
+    }
+    .productPrice {
+        font-size: 12px;
+    }
+    .productColors {
+        font-size: 8px;
+    }
+    .color {
+        width: 10px;
+        height: 10px;
+    }
+    .colorsInfo {
+        gap: 5px;
+    }
+    .qtySelector input {
+        font-size: 12px;
+        width: 35px;
+    }
+    .upperContainer button {
+        padding: 2px 5px;
+        font-size: 8px;
+        width: max-content;
+    }
+    .qtyButton {
+        width: 12px;
+        height: 12px;
+        padding: 0;
+    }
+    .qtyButton img {
+        width: 10px;
+        height: 10px;
+    }
+    .qtySelectorArrows {
+        gap: 3px;
+    }
+    .qtySelector {
+        gap: 5px;
+    }
+    .lowerContainer {
+        padding: 10px;
+    }
+    .delivery h3 {
+        font-size: 12px;
+    }
+    .delivery p {
+        font-size: 8px;
+    }
+    .allCharacteristics {
+        font-size: 6px;
+    }
+    .otherProduct img {
+        width: 75px;
+        height: 75px;
+    }
+    .otherProduct {
+        font-size: 12px;
+        padding: 5px;
+        gap: 7px;
+    }
+    .rub {
+        font-size: 8px;
+    }
+    .buyingWithIt {
+        font-size: 16px;
+    }
+    .cart {
+        width: 420px;
+    }
+    .cartContainer {
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .productNameAndPrice {
+        width: 50px;
+    }
+    .cartProduct {
+        width: 250px;
+    }
+    .cartProduct img {
+        width: 50px;
+        height: 30px;
+    }
+    .XAndQTY img {
+        width: 12px;
+        height: 12px;
+    }
+    .productNameAndPrice {
+        height: 35px;
+        margin-left: 10px;
+    }
+    .XAndQTY {
+        height: 35px;
+        margin-left: 34px;
+    }
+    .productNameAndPrice h2 {
+        font-size: 12px;
+    }
+    .productNameAndPrice p {
+        font-size: 10px;
+    }
+    .cartProduct {
+        padding: 7px 8px 7px 10px;
+    }
+    .qtySelectorCart {
+        font-size: 8px;
+        gap: 5px;
+    }
+    .inputContainer {
+        padding: 3px 1px;
+        gap: 3px;
+    }
+    .inputContainer input {
+        font-size: 8px;
+        width: 10px;
+        height: 5px;
+    }
+    .total {
+        gap: 5px;
+        margin-top: 10px;
+    }
+    .total h2 {
+        font-size: 14px;
+    }
+    .total h3 {
+        font-size: 10px;
+    }
+    .total p {
+        font-size: 6px;
+    }
+    .total button {
+        font-size: 8px;
+        width: max-content;
+        padding: 7px 10px;
+    }
+}

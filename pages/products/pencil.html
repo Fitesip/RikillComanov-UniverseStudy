@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Карандаш</title>
+    <link rel="stylesheet" href="../../styles/desktop.css">
+    <link rel="stylesheet" href="../../styles/tablet.css">
+    <link rel="stylesheet" href="../../styles/phone.css">
+</head>
+<body>
+    <header>
+        <div class="headerContainer">
+            <p class="logo">Universe Study</p>
+            <div class="pagesContainer">
+                <a href="../../index.html">Главная</a>
+                <div class="catalogLink">
+                    <a href="../office.html">Каталог</a>
+                    <img src="../../res/img/arrow.svg" class="catalogLinkArrow" alt="">
+                </div>
+                <a href="../delivery.html">Доставка</a>
+                <a href="../about.html">О нас</a>
+                <a href="../contacts.html">Контакты</a>
+            </div>
+            <div class="searchField">
+                <img src="../../res/img/searchIcon.svg" class="searchFieldIcon" alt="">
+                <input class="search" type="text" placeholder="Поиск">
+            </div>
+            <img src="../../res/img/login.svg" class="loginIcon" onclick="document.location.href='../cart.html'" alt="">
+        </div>
+    </header>
+    <main>
+        <div class="productInfoContainer">
+            <div class="productImages">
+                <div class="allImages">
+                    <img src="../../res/img/Карандаш.png" alt="">
+                    <img src="../../res/img/Карандаш.png" alt="">
+                    <img src="../../res/img/Карандаш.png" alt="">
+                    <img src="../../res/img/Карандаш.png" alt="">
+                </div>
+                <div class="productImage">
+                    <img src="../../res/img/Карандаш.png" alt="">
+                    <div class="arrowsWrapperForProductImages">
+                        <img src="../../res/img/arrow.svg" class="controlArrowForProductImages" id="leftProductImageArrow" alt="">
+                        <img src="../../res/img/arrow.svg" class="controlArrowForProductImages" id="rightProductImageArrow" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="characteristics">
+                <p>Характеристики</p>
+                <div class="characteristic">
+                    <p>Текст</p>
+                    <p>Текст</p>
+                </div>
+                <div class="characteristic">
+                    <p>Текст</p>
+                    <p>Текст</p>
+                </div>
+                <div class="characteristic">
+                    <p>Текст</p>
+                    <p>Текст</p>
+                </div>
+                <p class="allCharacteristics">Все характеристики</p>
+            </div>
+            <div class="mainInfo">
+                <div class="upperContainer">
+                    <p class="productName">Карандаш</p>
+                    <p class="productCategory">Категория</p>
+                    <div class="productPrice">
+                        <p>20.00</p>
+                        <p class="rub">руб</p>
+                    </div>
+                    <p class="productColors">Цвета</p>
+                    <div class="colorsInfo">
+                        <div class="color" id="blue"></div>
+                        <div class="color" id="red"></div>
+                        <div class="color" id="yellow"></div>
+                        <div class="color" id="green"></div>
+                    </div>
+                    <div class="qtySelector">
+                        <input type="number" id="qty" name="qty" min="1" value="1">
+                        <div class="qtySelectorArrows">
+                            <button class="qtyButton" onclick="qty.stepUp(); changeQTY()">
+                                <img src="../../res/img/arrow.svg" class="upArrow" alt="">
+                            </button>
+                            <button class="qtyButton" onclick="qty.stepDown(); changeQTY()">
+                                <img src="../../res/img/arrow.svg" class="downArrow" alt="">
+                            </button>
+                        </div>
+                    </div>
+                    <button class="button" onclick="addToCart('Карандаш')">В корзину</button>
+                </div>
+                <div class="lowerContainer">
+                    <div class="delivery">
+                        <h3>Доставка</h3>
+                        <p>Завтра</p>
+                    </div>
+                    <div class="delivery">
+                        <h3>Самовывоз</h3>
+                        <p>Сегодня</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="buyingWithIt">
+            <p>С этим товаром покупают</p>
+            <div class="otherProducts">
+                <div class="otherProduct" onclick="document.location.href='pen.html'">
+                    <img src="../../res/img/Ручка.png" alt="">
+                    <p>Ручка</p>
+                    <div class="otherProductPrice">
+                        <p>20.00</p>
+                        <p class="rub">руб</p>
+                    </div>
+                </div>
+                <div class="otherProduct" onclick="document.location.href='pencil.html'">
+                    <img src="../../res/img/Карандаш.png" alt="">
+                    <p>Карандаш</p>
+                    <div class="otherProductPrice">
+                        <p>20.00</p>
+                        <p class="rub">руб</p>
+                    </div>
+                </div>
+                <div class="otherProduct" onclick="document.location.href='notebook.html'">
+                    <img src="../../res/img/Тетрадь.png" alt="">
+                    <p>Тетрадь</p>
+                    <div class="otherProductPrice">
+                        <p>20.00</p>
+                        <p class="rub">руб</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footerContent1">
+            <p class="logo">Universe Study</p>
+            <p class="footerContentText address">Россия, г. Москва, Староватутинский проезд, д.6</p>
+            <div class="socials">
+                <img src="../../res/img/facebook.svg" class="socialIcon" alt="">
+                <img src="../../res/img/youtube.svg" class="socialIcon" alt="">
+                <img src="../../res/img/instagram.svg" class="socialIcon" alt="">
+                <img src="../../res/img/twitter.svg" class="socialIcon" alt="">
+            </div>
+        </div>
+        <div class="footerContent2">
+            <h1 class="footerContentHeader">Информация</h1>
+            <a href="../../index.html" class="footerContentText">Главная</a>
+            <a href="../office.html" class="footerContentText">Продукты</a>
+            <a href="../delivery.html" class="footerContentText">Доставка</a>
+            <a href="../about.html" class="footerContentText">О нас</a>
+            <a href="../contacts.html" class="footerContentText">Контакты</a>
+        </div>
+        <div class="footerContent3">
+            <h1 class="footerContentHeader">Контакты</h1>
+            <div class="footerSubcontent">
+                <h2 class="footerSubcontentHeader">Телефон:</h2>
+                <p class="footerContentText">8 (800) 555-35-35</p>
+            </div>
+            <div class="footerSubcontent">
+                <h2 class="footerSubcontentHeader">Email:</h2>
+                <p class="footerContentText">abobus@mogus.gus</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="../../js/addToCart.js"></script>
+</html>

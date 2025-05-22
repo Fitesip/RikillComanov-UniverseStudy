@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../styles/desktop.css">
+    <link rel="stylesheet" href="../styles/tablet.css">
+    <link rel="stylesheet" href="../styles/phone.css">
+</head>
+<body>
+    <header>
+        <div class="headerContainer">
+            <p class="logo">Universe Study</p>
+            <div class="pagesContainer">
+                <a href="../index.html">Главная</a>
+                <div class="catalogLink">
+                    <a href="office.html">Каталог</a>
+                    <img src="../res/img/arrow.svg" class="catalogLinkArrow" alt="">
+                </div>
+                <a href="delivery.html">Доставка</a>
+                <a href="about.html">О нас</a>
+                <a href="contacts.html">Контакты</a>
+            </div>
+            <div class="searchField">
+                <img src="../res/img/searchIcon.svg" class="searchFieldIcon" alt="">
+                <input class="search" type="text" placeholder="Поиск">
+            </div>
+            <img src="../res/img/login.svg" class="loginIcon" onclick="document.location.href='cart.html'" alt="">
+        </div>
+    </header>
+    <main>
+        <div class="cart">
+            <h1>Корзина</h1>
+            <div class="cartContainer">
+                <div class="cartProducts">
+                    <div class="cartProduct">
+                        <img src="../res/img/Ручка.png" alt="">
+                        <div class="productNameAndPrice">
+                            <h2>Ручка</h2>
+                            <p>20.00 руб</p>
+                        </div>
+                        <div class="XAndQTY">
+                            <img src="../res/img/x.svg" alt="">
+                            <div class="qtySelectorCart">
+                                <p>Количество :</p>
+                                <div class="inputContainer">
+                                    <button class="qtyButtonCart" onclick="qty.stepDown()">
+                                        <img src="../res/img/minus.svg" alt="">
+                                    </button>
+                                    <input type="number" id="qty" name="qty" min="1" value="1">
+                                    <button class="qtyButtonCart" onclick="qty.stepUp()">
+                                        <img src="../res/img/plus.svg" alt="">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="total">
+                    <h2>Итого:</h2>
+                    <h3 id="price">0.00 руб</h3>
+                    <hr>
+                    <p>После кнопки оформить мы свяжемся с вами.</p>
+                    <button>Оформить</button>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footerContent1">
+            <p class="logo">Universe Study</p>
+            <p class="footerContentText address">Россия, г. Москва, Староватутинский проезд, д.6</p>
+            <div class="socials">
+                <img src="../res/img/facebook.svg" class="socialIcon" alt="">
+                <img src="../res/img/youtube.svg" class="socialIcon" alt="">
+                <img src="../res/img/instagram.svg" class="socialIcon" alt="">
+                <img src="../res/img/twitter.svg" class="socialIcon" alt="">
+            </div>
+        </div>
+        <div class="footerContent2">
+            <h1 class="footerContentHeader">Информация</h1>
+            <a href="../index.html" class="footerContentText">Главная</a>
+            <a href="office.html" class="footerContentText">Продукты</a>
+            <a href="delivery.html" class="footerContentText">Доставка</a>
+            <a href="about.html" class="footerContentText">О нас</a>
+            <a href="contacts.html" class="footerContentText">Контакты</a>
+        </div>
+        <div class="footerContent3">
+            <h1 class="footerContentHeader">Контакты</h1>
+            <div class="footerSubcontent">
+                <h2 class="footerSubcontentHeader">Телефон:</h2>
+                <p class="footerContentText">8 (800) 555-35-35</p>
+            </div>
+            <div class="footerSubcontent">
+                <h2 class="footerSubcontentHeader">Email:</h2>
+                <p class="footerContentText">abobus@mogus.gus</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="../js/cart.js"></script>
+</html>
